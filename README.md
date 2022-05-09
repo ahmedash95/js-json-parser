@@ -1,12 +1,12 @@
 # JSON parser
 
-JSON praser built in JS that can 
+JSON parser built in JS that can 
 - Build an **AST** for **JSON** 
-- Prase json text to JS object
+- Parse json text to JS object
 
 # Usage
 
-### to prase JSON and get an AST
+### AST - to parse JSON and get an AST
 ```js
 const { Parser } = require('./parser');
 
@@ -33,7 +33,7 @@ console.log(p.parse())
 }
 ```
 
-### to prase json string and get JS object
+### Object - to parse json string and get JS object
 ```js
 const { JsonBuilder } = require('./builder');
 
