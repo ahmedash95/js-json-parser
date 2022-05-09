@@ -51,7 +51,9 @@ console.log(b.build(`{"name": "Json Parser"}`));
 
 # Install
 
-It has no dependencies. so no need to install anything.
+```bash
+npm i js-nasty-json-parser
+```
 
 # Testing
 
