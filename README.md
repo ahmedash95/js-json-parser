@@ -4,11 +4,13 @@ JSON parser built in JS that can
 - Build an **AST** for **JSON** 
 - Parse json text to JS object
 
+**NOTE:** Its not for production
+
 # Usage
 
 ### AST - to parse JSON and get an AST
 ```js
-const { Parser } = require('./parser');
+const { Parser } = require('js-nasty-json-parser/parser');
 
 const p = new Parser(`{"name": "Json Parser"}`)
 
@@ -35,7 +37,7 @@ console.log(p.parse())
 
 ### Object - to parse json string and get JS object
 ```js
-const { JsonBuilder } = require('./builder');
+const { JsonBuilder } = require('js-nasty-json-parser/builder');
 
 const b = new JsonBuilder()
 
