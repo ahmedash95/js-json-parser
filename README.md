@@ -6,6 +6,12 @@ JSON parser built in JS that can
 
 **NOTE:** Its not for production
 
+# Install
+
+```bash
+npm i js-nasty-json-parser
+```
+
 # Usage
 
 ### AST - to parse JSON and get an AST
@@ -47,12 +53,6 @@ console.log(b.build(`{"name": "Json Parser"}`));
 { 
   name: 'Json Parser' 
 }
-```
-
-# Install
-
-```bash
-npm i js-nasty-json-parser
 ```
 
 # Testing
